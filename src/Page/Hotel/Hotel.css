@@ -1,0 +1,116 @@
+.hotelContainer {
+  width: 82%;
+  margin: 160px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.hotel-price {
+  width: 28%;
+}
+.hotel-price > div {
+  position: fixed;
+  border-radius: 18px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px #bababa95 solid;
+}
+
+.hotel-ditail {
+  width: 70%;
+}
+.hotel-ditail img {
+  width: 100%;
+  height: 237px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid white;
+}
+
+.hotelContainer .rdrDateRangePickerWrapper {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+
+.input-hotel {
+  width: 260px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.options-hotel {
+  position: absolute;
+  top: 132px;
+}
+.day {
+  font-size: 14px;
+  color: gray;
+}
+.hotel-price .price-reserve {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hotel-price .price-reserve h1 {
+  font-size: 20px;
+}
+.hotel-price .price-reserve button {
+  border-radius: 20px;
+  background-color: #272a39;
+  padding: 4px 16px;
+  color: white;
+}
+
+.name-hotel {
+  border-radius: 18px;
+  padding: 6px;
+  margin: 4px 0;
+}
+
+.name-hotel {
+  font-size: 18px;
+}
+
+.amenities-text {
+  padding: 6px;
+  font-size: 18px;
+  color: #e29145;
+}
+
+.amenities-hotel {
+  background-color: #fff;
+  border-radius: 18px;
+  padding: 10px 22px;
+  border: 1px #bababa95 solid;
+}
+
+.amenities-hotel span {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.description-text h3 {
+  padding: 6px;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #e29145;
+}
+
+.description-text p {
+  text-align: justify;
+  background-color: #fff;
+  border-radius: 18px;
+  padding: 20px 22px;
+  border: 1px #bababa95 solid;
+}
